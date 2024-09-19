@@ -9,11 +9,11 @@ Ini adalah website portofolio pribadi yang saya buat untuk menampilkan karya des
 
 ## Teknologi yang digunakan
 - HTML, CSS, dan JavaScript
-- Framework: [jika ada, seperti Bootstrap atau lainnya]
+- Framework: Bootstrap
 
 ## Cara Mengakses
 Kamu bisa mengakses website ini melalui GitHub Pages di sini: [link GitHub Pages kamu]
 
 ## Kontak
-Jika ingin berdiskusi atau berkolaborasi, bisa hubungi saya melalui [media sosial atau email kamu]. Terima kasih!
+Jika ingin berdiskusi atau berkolaborasi, bisa hubungi saya melalui dimanfrontdeveloper@gmail.com, Terima kasih!
 
