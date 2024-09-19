@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home{
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-text-1{
+  position: relative;
+}
+
+.home-text-1 h2{
+  font-size: 55px;
+  line-height: 30px;
+  font-family: 'Open Sans';
+}
+
+.home-text-1 h1{
+  font-size: 80px;
+  font-family: 'League Spartan';
+  position: relative;
+  z-index: 1;
+}
+
+.home-text-1 h1::after{
+  content: 'Portofolio';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: -20px;
+  opacity: 25%;
+}
+
+.home-text-1 p{
+  font-family: 'Nunito';
+  font-size: 20px;
+  background: #545454f5;
+  padding:0px 8px;
+  border-radius: 5px;
+  width: 140px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  right:210px;
+  bottom: 5px;
+  z-index: 2;
+}
+
+.home-text-2{
+  font-family: 'Nunito';
+}
+
+.home-text-2 h4{
+  font-size: 40px;
+}
+
+.home-text-2 p{
+  font-size: 20px;
+}
+
+/* page 2 */
+.about-text-1 h1{
+  font-size: 80px;
+  font-family: 'Archivo Black';
+  position: relative;
+  z-index: 1;
+}
+
+.about-text-1 h1::after{
+  content: 'HELLO!';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: -22px;
+  opacity: 25%;
+}
+
+.about-text-2 h2{
+  font-family: 'Arimo';
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.about-text-2 h4{
+  font-size: 25px;
+}
+
+.about-text-2 p{
+  font-size: 18px;
+}
+
+/* page 4 */
+.title h1{
+  font-family: 'Archivo Black';
+  text-shadow: 3px 2px 1px #808080f0;
+}
+
+.title h2{
+  font-family: 'Archivo Black';
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+/* page 5 */
+.page-5{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 130vh;
+  z-index: 1;
+}
+.box-container{
+  transform: rotate(-5deg);
+  position: relative;
+  right: -20%;
+  z-index: 2;
+}
+
+.box-container img{
+  width: 30%;
+}
+
+.main-img{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  z-index: 3;
+}
+
+/* page-7 */
+.poster-box img{
+  width: 30%;
+  gap: 20px;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  padding: 20px 0;
+}
+
+footer hr{
+  height: 4px;
+  background: white;
+  width: 500px;
+  margin: auto;
+}
+
+.footer-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-img img{
+  width: 55px;
+  margin-right: 10px;
+}
+
+.footer-img h2{
+  color: white;
+  font-family: 'Audiowide';
+  vertical-align: middle;
+}
+
+.footer-medsos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-medsos a{
+  width: 50px;
+  height: 50px;
+  background: #545454;
+  margin: 5px;
+  text-align: center;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-medsos a i{
+  font-size: 20px;
+  color: white;
+}
+
+@media screen and (max-width:768px) {
+  .page-5{
+    height: auto;
+    overflow: visible;
+    position: static;
+    z-index: 0;
+  }
+  
+  .box-container{
+    position: static;
+    transform: rotate(0deg);
+    z-index: 0;
+  }
+  
+  .box-container img{
+    width: 100%;
+  }
+  
+  .main-img{
+    position: static;
+    z-index: 0;
+  }
+  
+  .poster-box img{
+    width: 100%;
+  }
+}
