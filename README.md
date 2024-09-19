@@ -12,7 +12,7 @@ Ini adalah website portofolio pribadi yang saya buat untuk menampilkan karya des
 - Framework: Bootstrap
 
 ## Cara Mengakses
-Kamu bisa mengakses website ini melalui GitHub Pages di sini: [link GitHub Pages kamu]
+Kamu bisa mengakses website ini melalui Link Pages di sini: https://personal-portofolio-website-dfrontdev.vercel.app/
 
 ## Kontak
 Jika ingin berdiskusi atau berkolaborasi, bisa hubungi saya melalui dimanfrontdeveloper@gmail.com, Terima kasih!
